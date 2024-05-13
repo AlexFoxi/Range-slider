@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+	<div class="container">
+		<div class="range-slider extra">
+			<div class="range-inputs form-wrapper">
+				<input class="form-control range-value-min" name="min-value" type="text" value="0">
+				<span>-</span>
+				<input class="form-control range-value-max" name="max-value" type="text" value="0">
+			</div>
+			<div class="start-wrapper">
+				<input type="range" min="0" max="5000" value="0" safeRange="default" step="10">
+				<input type="range" min="0" max="5000" value="5000" step="10">
+			</div>
+			<div class="track-wrapper">
+				<div class="track"></div>
+				<div class="range-between"></div>
+				<div class="thumb left"></div>
+				<div class="thumb right"></div>
+			</div>
+		</div>
+	</div>
+</body>
+<script src="index.js"></script>
+
+</html>
